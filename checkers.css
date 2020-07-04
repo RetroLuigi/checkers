@@ -1,0 +1,23 @@
+#checkerboard {
+  position:relative;
+  width:800px;
+  height:800px;
+}
+
+.tile {
+  position:absolute;
+  width:12.5%;
+  height:12.5%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.token {
+    height: 80%;
+    width: 80%;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    border:2px solid gold;
+}
